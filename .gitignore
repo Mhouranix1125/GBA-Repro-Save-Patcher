@@ -1,0 +1,28 @@
+# Compiled output
+*.exe
+*.o
+*.obj
+*.elf
+*.bin
+
+# Generated Flash512 payload bridge
+src/payload_bin.cpp
+src/payload.elf
+src/payload.bin
+src/app_res.o
+
+# IDE / editor state
+.vscode/
+.idea/
+*.user
+*.suo
+*.VC.db
+
+# Windows clutter
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.log

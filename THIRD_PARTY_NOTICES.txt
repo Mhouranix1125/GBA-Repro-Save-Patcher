@@ -1,0 +1,37 @@
+THIRD-PARTY NOTICES
+===================
+
+Flash512 payload/reference implementation
+-----------------------------------------
+Project:
+  metroid-maniac/gba-flash-patcher
+
+Repository:
+  https://github.com/metroid-maniac/gba-flash-patcher
+
+License:
+  MIT
+
+Copyright (c) 2023 Metroid Maniac
+
+The ARM payload source is bundled under:
+  third_party/gba-flash-patcher/
+
+It is compiled and embedded in GBA-Repro-Save-Patcher.exe at build time.
+
+The Windows-side Flash512 patching flow in this project is an in-process
+reimplementation based on the behavior of that open-source reference.
+
+
+EEPROM -> SRAM conversion
+-------------------------
+Project:
+  BBsan - Flash1M_Repro_SRAM_Patcher
+
+Repository:
+  https://github.com/bbsan2k/Flash1M_Repro_SRAM_Patcher
+
+License:
+  MIT
+
+The EEPROM routine matching/replacement data is adapted from that project.
